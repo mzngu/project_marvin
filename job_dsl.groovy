@@ -15,8 +15,8 @@ job("Daily Dose of Satisfaction") {
         stringParam('NAME', null, null)
     }
     steps {
-        shell('echo, "Hello dear $NAME!"')
+        shell('echo "Hello dear $NAME!"')
         shell('date')
-        shell('echo, "Hello this is your DDos number $BUILD_NUMBER."')
+        shell('echo "Hello this is your DDos number $BUILD_NUMBER."')
     }
 }
