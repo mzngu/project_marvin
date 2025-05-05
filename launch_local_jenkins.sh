@@ -3,9 +3,9 @@
 docker volume rm jenkins_home
 docker volume create jenkins_home
  
-export USER_CHOCOLATEEN_PASSWORD="chocolateen_password"
-export USER_VAUGIE_G_PASSWORD="vaugie_password"
-export USER_I_DONT_KNOW_PASSWORD="idk_password"
+export USER_CHOCOLATEEN_PASSWORD="test12345"
+export USER_VAUGIE_G_PASSWORD="test54321"
+export USER_I_DONT_KNOW_PASSWORD="password12345"
 export USER_NASSO_PASSWORD="nasso_password"
  
 docker pull jenkins/jenkins:lts &&
